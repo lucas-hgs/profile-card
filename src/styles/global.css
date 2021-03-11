@@ -1,0 +1,22 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background: #19a2ae;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-image: url('../images/bg-pattern-top.svg'), url('../images/bg-pattern-bottom.svg');
+  background-position: top -425px left 15px, bottom -500px right 10px;
+  background-repeat: no-repeat;
+}
+
+body, span, li {
+  font-family: 'Kumbh Sans', sans-serif;
+}

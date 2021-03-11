@@ -1,0 +1,88 @@
+.container {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  max-width: 350px;
+
+  background-color: #fff;
+
+  border-radius: 15px;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  position: relative;
+}
+
+.cardBackground {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.profilePicture {
+  border-radius: 50%;
+  position: absolute;
+  border: 5px #fff solid;
+
+  position: absolute;
+  top: 85px;
+}
+
+.userInfo {
+  margin-top: 70px;
+  padding-bottom: 15px;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  border-bottom: #e3e3e3 1px solid;
+  width: 100%;
+}
+
+span {
+  font-size: 18px;
+  color: #6a6f81;
+  font-weight: 400;
+}
+
+.title {
+  font-weight: 700;
+  color: #2d3248;
+}
+
+.age {
+  font-weight: 400;
+  color: #6a6f81;
+  margin-left: 8px;
+}
+
+.lowerText {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+ul {
+  list-style: none;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 25px 25px;
+}
